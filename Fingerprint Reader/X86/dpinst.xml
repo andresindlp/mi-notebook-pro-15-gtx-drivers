@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+  <dpinst>
+
+    <!-- English -->
+    <language code="0x0409">
+      <dpinstTitle>ELAN FingerPrinter Device Driver Installation</dpinstTitle>
+      <welcomeTitle>Welcome</welcomeTitle>
+      <welcomeIntro>Welcome to the ELAN FingerPrinter Device Driver Setup program.  This program will install the ELAN FingerPrinter Device Driver on your computer. </welcomeIntro>
+      <eulaHeaderTitle>Review the terms of the license agreement</eulaHeaderTitle>
+      <eulaYesButton>I accept this agreement</eulaYesButton>
+      <eulaNoButton>I do not accept this agreement</eulaNoButton>
+      <installHeaderTitle>Please wait while Setup finishes installing the driver.</installHeaderTitle>
+      <finishTitle>Setup complete</finishTitle>
+      <finishText>Setup has finished installing the ELAN FingerPrinter Device driver.</finishText>
+      <eula type="txt" path="Eula0409ENU.tx_"/>
+    </language>
+
+    <!--  Chinese (Taiwan) --> 
+  <language code="0x0404">
+  <dpinstTitle>ELAN 指紋辨識裝置 驅動程式安裝</dpinstTitle> 
+  <welcomeTitle>歡迎</welcomeTitle> 
+  <welcomeIntro>歡迎蒞臨ELAN指紋辨識裝置驅動程式的設定程式。這個程式可以在電腦上安裝ELAN指紋辨識裝置的驅動程式。</welcomeIntro>
+    <eulaHeaderTitle>檢視許可協定的條款</eulaHeaderTitle>
+    <eulaYesButton>我接受本協定</eulaYesButton>
+    <eulaNoButton>我不接受本協定</eulaNoButton>
+    <installHeaderTitle>請等待設定程式完成驅動程式的安裝。</installHeaderTitle> 
+  <finishTitle>設定完畢</finishTitle> 
+  <finishText>設定程式已經完成ELAN指紋辨識裝置驅動程式的安裝。</finishText>
+    <eula type="txt" path="Eula0404CHT.tx_"/>
+  </language>
+  
+     <icon>ELANLogo.ico</icon>
+    <headerPath>ELANTP.bmp</headerPath>
+    <legacyMode/>
+    <forceIfDriverIsNotBetter/>
+    <suppressAddRemovePrograms/>
+    <enableNotListedLanguages/>
+
+  </dpinst>
