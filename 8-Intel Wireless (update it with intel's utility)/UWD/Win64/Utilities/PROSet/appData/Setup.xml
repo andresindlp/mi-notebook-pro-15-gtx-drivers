@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<MWGInstallerSettings>
+  <SetupConfigurations>
+    <Configuration Id="default">
+      <SelectableFeatures>
+        <SelectableFeature Id="WIFI_Software" Display="no" Selected="yes" />
+        <SelectableFeature Id="WIFI_UI" Display="no" Selected="yes" />
+        <SelectableFeature Id="WIFI_Admin_Toolkit" Display="no" Selected="no" />
+      </SelectableFeatures>
+
+      <PackageProperties>
+        <Package Id="WiFi">
+          <Properties>CCX_SUPPORT=FALSE</Properties>
+          <Properties>EnableCpApplet=TRUE</Properties>
+          <Properties>S5WOWLANEnable=FALSE</Properties>
+        </Package>
+      </PackageProperties>
+    
+    </Configuration>
+ 
+  </SetupConfigurations>
+  
+</MWGInstallerSettings>

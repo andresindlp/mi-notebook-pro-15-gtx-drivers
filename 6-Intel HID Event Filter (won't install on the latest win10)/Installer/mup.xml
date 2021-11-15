@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created With CreateMup.exe Version 25.11.2014.0925-->
+<MUPDefinition xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd">
+  <packageinformation>
+    <installertype>msi</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <mupspecificationversion>2.4.3</mupspecificationversion>
+    <version>2.2.1.364</version>
+    <name>HIDEventFilter</name>
+    <supportedoperatingsystems>
+	  <osidentifier name="Windows7" architecture="x64" />
+      <osidentifier name="W2K8R2" architecture="x64" />
+      <osidentifier name="Windows8" architecture="x64" />
+      <osidentifier name="W2K12" architecture="x64" />
+      <osidentifier name="Windows8.1" architecture="x64" />
+      <osidentifier name="W2K12R2" architecture="x64" />
+      <osidentifier name="Windows10" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+	<Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\Windows7-x64\HidEventFilter.inf</file>
+          <file>production\Windows7-x64\HidEventFilter.cat</file>
+          <file>production\Windows7-x64\HidEventFilter.sys</file>
+          <file>production\Windows7-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\W2K8R2-x64\HidEventFilter.inf</file>
+          <file>production\W2K8R2-x64\HidEventFilter.cat</file>
+          <file>production\W2K8R2-x64\HidEventFilter.sys</file>
+          <file>production\W2K8R2-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\Windows8-x64\HidEventFilter.inf</file>
+          <file>production\Windows8-x64\HidEventFilter.cat</file>
+          <file>production\Windows8-x64\HidEventFilter.sys</file>
+          <file>production\Windows8-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\W2K12-x64\HidEventFilter.inf</file>
+          <file>production\W2K12-x64\HidEventFilter.cat</file>
+          <file>production\W2K12-x64\HidEventFilter.sys</file>
+          <file>production\W2K12-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\Windows8.1-x64\HidEventFilter.inf</file>
+          <file>production\Windows8.1-x64\HidEventFilter.cat</file>
+          <file>production\Windows8.1-x64\HidEventFilter.sys</file>
+          <file>production\Windows8.1-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\W2K12R2-x64\HidEventFilter.inf</file>
+          <file>production\W2K12R2-x64\HidEventFilter.cat</file>
+          <file>production\W2K12R2-x64\HidEventFilter.sys</file>
+          <file>production\W2K12R2-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="105204">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33D5</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="2.2.1.364">
+          <file>production\Windows10-x64\HidEventFilter.inf</file>
+          <file>production\Windows10-x64\HidEventFilter.cat</file>
+          <file>production\Windows10-x64\HidEventFilter.sys</file>
+          <file>production\Windows10-x64\HidEventFilter.sys</file>
+        </Image>
+      </Device>
+    </content>
+  </packageinformation>
+  <executable>
+    <executablename>setup.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="freshinstall">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </behavior>
+<!--
+    <behavior name="driveronly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">noservice</optionvalue>
+      </vendoroption>
+    </behavior>
+-->
+    <!--
+	<behavior name="applicationonly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">nodrv</optionvalue>
+      </vendoroption>
+    </behavior>
+-->
+    <behavior name="extractdrivers">
+      <vendoroption>
+        <container>
+          <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+          <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+        </container>
+      </vendoroption>
+    </behavior>
+
+    <behavior name="attended" />
+    <behavior name="help">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">?</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+      <!-- The DUP will Restart the system
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">b</optionvalue>
+      </vendoroption>
+-->
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="force">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </parametermapping>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+		<vendorreturncode>15</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+		<vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+		<!--Always able to DownGrade, Installer Doesn't need to support-->
+		<vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+		<vendorreturncode>13</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+		<vendorreturncode>7</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+		<vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+		<vendorreturncode>14</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+		<vendorreturncode>3</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+		<vendorreturncode>5</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+		<vendorreturncode>1</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>6</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>9</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>10</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>11</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>12</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>16</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+		<vendorreturncode>19</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <pnpids>
+        <pnpdevice componentID="105204">
+          <!--filename: \Bin\HidEventFilter.inf-->
+          <driverversion>2.2.1.364</driverversion>
+          <pnpidstring>
+            <PNPID>INT</PNPID>
+            <PnPProductID>33D5</PnPProductID>
+          </pnpidstring>
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="105204">
+          <identifyingnumber>{82CF0211-F05A-42C7-AA97-8FABB6D66FA4}</identifyingnumber>
+          <upgradecode>{DBEC3A35-04A8-4A70-BD7B-F42654758956}</upgradecode>
+          <version>2.2.1.364</version>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>

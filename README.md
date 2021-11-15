@@ -1,6 +1,8 @@
 # 2018 Mi Notebook Pro 15 GTX Drivers
 
-I’ve decided to upload the drivers for this laptop to GitHub since the [official site](https://www.mi.com/service/bijiben/drivers/15-game-gtx) is down and the only other site I was able to download the drivers from was [here](https://c.mi.com/thread-2167073-1-0.html), which has the same ones that are in this repo as of 14/11/2021.
+I’ve decided to upload the drivers for this laptop to GitHub since the [official site](https://www.mi.com/service/bijiben/drivers/15-game-gtx) is down ~~and the only other site I was able to download the drivers from was [here](https://c.mi.com/thread-2167073-1-0.html), which has the same ones that are in this repo as of 14/11/2021.~~
+
+I've just realised I had a copy of the drivers from the official site on my hard drive I downloaded in March. These are the ones present in this repo.
 
 ## Drivers not included:
 - Intel Graphics: Use the installer from Intel’s website.

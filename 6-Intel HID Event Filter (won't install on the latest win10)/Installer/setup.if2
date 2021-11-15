@@ -1,0 +1,4 @@
+﻿[File]
+operation=deleteonuninstall
+destination=%systemCurOS%\drivers\HidEventFilter.sys
+usequence=5000
